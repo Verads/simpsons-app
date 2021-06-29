@@ -1,0 +1,14 @@
+.menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    
+    color: #4f2158;
+    font-size: 14px;
+}
+
+.menu-tabs {
+    padding-right: 1.8rem;
+    padding-top: 1.8rem;
+    cursor: pointer;
+}

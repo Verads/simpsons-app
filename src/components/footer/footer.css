@@ -1,0 +1,31 @@
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+    background-color: #4f2158;
+    padding: 1.8rem 0;
+    margin-top: auto;
+}
+
+.footer_social img {
+    height: 35px;
+    width: 35px;
+}
+
+.footer_social {
+    display: flex;
+    flex-direction: row;
+    width: 150px;
+    justify-content: space-between;
+}
+
+.footer_bio h4 {
+    font-size: 14px;
+    color: #fff;
+}
+
+.footer_paragraph {
+    font-size: 12px;
+    color: #fff
+}

@@ -1,0 +1,70 @@
+.main_cards h1 {
+    text-align: center;
+    color: #4f2158
+}
+
+.loading {
+    font-size: 12px;
+    font-style: italic;
+    text-align: center;
+    width: 100vw;
+}
+
+.search_card button {
+    width: 100px;
+    height: 30px;
+    font-size: 14px;
+}
+
+.search_card {
+    height: 30px;
+    border: 1px solid #4f2158;
+    width: 333px;
+    border-radius: 8px;
+    
+    margin: 1.8rem auto;
+}
+
+#search_input {
+    border-radius: 8px;
+    border: none;
+    padding-left: 10px;
+}
+
+input:focus{
+    outline: none;
+}
+
+#search_input::placeholder {
+    font-size: 14px;
+    font-style: italic;
+}
+
+.hearthstone_cards {
+    height: 100px;
+    width: 200px;
+    border: 1px solid #4f2158;
+    border-radius: 8px;
+    text-align: center;
+    margin: 1rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.classic_cards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.hearthstone_cards h2 {
+    color: #4f2158;
+    font-size: 18px;
+}
+
+.hearthstone_cards p {
+    font-style: italic;
+    font-size: 12px;
+}
